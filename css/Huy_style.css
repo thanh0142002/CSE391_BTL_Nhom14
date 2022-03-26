@@ -25,39 +25,59 @@
     color: white;
 }
 
-.img-fluid{
-    padding-top: 55px;
-}
+
 /*=========== Start: Hồ sơ - Profile ===========*/
-#icon .social{
-    margin-top: -40px;
-    
+#profile-page{
+    margin-top: -30%;
 }
-.social a:hover {
-    color: #b8b3b3;
-
+#profile-page #social .fb {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
 }
-.social a {
-    padding: 0 10px;
-    font-size: 50px;
-    color:  #979797;
-
-}
-.profile-page .wrapper{
-    margin-top: -340px;
-}
-.profile-page img{
-    border: 1px #378C3F solid;
+#profile-page img{
+    border: 1px solid #378C3F ;
     padding: 7px;
     border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
     height: 180px;
     width: 180px;
+}
+#profile-page #social .box-social a{
+    color: white;
+    font-size: 30px;
+    padding-top: 70px;
+    
+}
+#profile-page #social .gg {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
 
 }
 
+#profile-page #social .ig {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
 
+}
+
+#profile-page .box-social {
+    display: flex;
+    justify-content: center;
+    
+}
+#profile-page #social{
+    margin-top: 240px;
+}
 /*=========== Start: Phần thông tin - About ===========*/
 #about {
     margin-top: 100px;
@@ -146,3 +166,63 @@
 
 /*=========== Start: Người giới thiệu - References ===========*/
 /*=========== End: Người giới thiệu - References ===========*/
+
+/*=========== Start: Phần cuối trang - Footer ===========*/
+.footer .container a{
+    padding-left: 10px;
+    font-size: 35px;
+    color:  #979797;
+    margin-top: 20px;
+}
+#FB:hover{
+    color: rgb(36, 36, 138);
+}
+#GG:hover{
+    color: rgb(199, 70, 70);
+}
+#IG:hover{
+    color: rgb(100, 100, 228);
+}
+
+/*=========== End: Phần cuối trang - Footer ===========*/
+#portfolio .laptop {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+
+
+}
+#portfolio .container .box-icon a{
+    color: white;
+    font-size: 30px;
+    padding-top: 70px;
+    
+}
+#portfolio .img {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+#portfolio .cam {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+#portfolio .box-icon {
+    display: flex;
+    justify-content: center;
+    
+    
+}
