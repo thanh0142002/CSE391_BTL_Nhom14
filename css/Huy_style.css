@@ -1,0 +1,148 @@
+/* =========== Thanh điều hướng =========== */
+.body{
+    font-family: Arial, "Helvetica Neue", sans-serif;
+}
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.container .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px
+
+}
+.navbar {
+    background-color: #378C3F;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    top: 0px;
+
+}
+.navbar .navbar-toggler-icon span{
+    color: white;
+}
+
+.img-fluid{
+    padding-top: 55px;
+}
+/*=========== Start: Hồ sơ - Profile ===========*/
+#icon .social{
+    margin-top: -40px;
+    
+}
+.social a:hover {
+    color: #b8b3b3;
+
+}
+.social a {
+    padding: 0 10px;
+    font-size: 50px;
+    color:  #979797;
+
+}
+.profile-page .wrapper{
+    margin-top: -340px;
+}
+.profile-page img{
+    border: 1px #378C3F solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    height: 180px;
+    width: 180px;
+
+}
+
+
+/*=========== Start: Phần thông tin - About ===========*/
+#about {
+    margin-top: 100px;
+    
+}
+
+#about .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+}
+
+#about .container .card .row .col-lg-6 .col-sm-4{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    
+}
+    
+#about .container .card .row .col-lg-6 .h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+
+}
+/*=========== End: Phần thông tin - About ===========*/
+
+
+/*=========== Start: Kinh nghiệm làm việc - Work experience ===========*/
+#experience{
+    margin-top: 100px;
+}
+#experience .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+#experience .container .h4{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+#experience .container .card .col-md-3 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+#experience .container .card .col-md-3 .card-body{
+    margin-top: 12%;
+}
+/*=========== End: Kinh nghiệm làm việc - Work experience ===========*/
+
+
+/*=========== Start: Giáo dục - Education ===========*/
+
+#education{
+    margin-top: 100px;
+}
+#education .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+#education .container .h4{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+#education .container .card .col-md-3 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+#education .container .card .col-md-3 .card-body{
+    margin-top: 12%;}
+/*=========== End: Giáo dục - Education ===========*/
+
+/*=========== Start: Người giới thiệu - References ===========*/
+/*=========== End: Người giới thiệu - References ===========*/
