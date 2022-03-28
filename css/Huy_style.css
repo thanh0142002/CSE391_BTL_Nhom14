@@ -1,4 +1,4 @@
-/* =========== Thanh điều hướng =========== */
+/* =========== Start: Thanh điều hướng =========== */
 .body{
     font-family: Arial, "Helvetica Neue", sans-serif;
 }
@@ -25,11 +25,19 @@
     color: white;
 }
 
+header img{
+    height: 355px;
+    width: 1903px;
+}
+/* =========== End: Thanh điều hướng =========== */
+
 
 /*=========== Start: Hồ sơ - Profile ===========*/
 #profile-page{
-    margin-top: -30%;
+    margin-top: -570px;
+    color: white;
 }
+
 #profile-page #social .fb {
     background-color: #979797;
     padding: 7px;
@@ -67,7 +75,14 @@
     height: 60px;
     width: 60px;
     margin-left: 10px;
-
+}
+#profile-page #social .tw {
+    background-color: #979797;
+    padding: 7px;
+    border-radius:70%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
 }
 
 #profile-page .box-social {
@@ -78,9 +93,12 @@
 #profile-page #social{
     margin-top: 240px;
 }
+/*=========== End: Hồ sơ - Profile ===========*/
+
+
 /*=========== Start: Phần thông tin - About ===========*/
 #about {
-    margin-top: 100px;
+    margin-top: 150px;
     
 }
 
@@ -135,56 +153,14 @@
 /*=========== End: Kinh nghiệm làm việc - Work experience ===========*/
 
 
-/*=========== Start: Giáo dục - Education ===========*/
-
-#education{
-    margin-top: 100px;
-}
-#education .container .card{
-    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
-    margin-bottom: 35px;
-}
-
-#education .container .h4{
-    text-align: center;
-    margin-bottom: 25px;
+/*=========== Start: Dự án đã làm - Portfolio ===========*/
+#portfolio .h4{
+    margin-top: 15%;
     font-size: 24px;
     font-weight: 700;
-    line-height: 35px;
+    line-height: 34px;
 }
 
-#education .container .card .col-md-3 {
-    background-color: #378C3F;
-    border-radius: 2px;
-    text-align: center;
-    color: white;
-}
-
-#education .container .card .col-md-3 .card-body{
-    margin-top: 12%;}
-/*=========== End: Giáo dục - Education ===========*/
-
-/*=========== Start: Người giới thiệu - References ===========*/
-/*=========== End: Người giới thiệu - References ===========*/
-
-/*=========== Start: Phần cuối trang - Footer ===========*/
-.footer .container a{
-    padding-left: 10px;
-    font-size: 35px;
-    color:  #979797;
-    margin-top: 20px;
-}
-#FB:hover{
-    color: rgb(36, 36, 138);
-}
-#GG:hover{
-    color: rgb(199, 70, 70);
-}
-#IG:hover{
-    color: rgb(100, 100, 228);
-}
-
-/*=========== End: Phần cuối trang - Footer ===========*/
 #portfolio .laptop {
     background-color: #979797;
     padding: 7px;
@@ -226,3 +202,70 @@
     
     
 }
+/*=========== End: Dự án đã làm - Portfolio ===========*/
+
+
+/*=========== Start: Giáo dục - Education ===========*/
+#education{
+    margin-top: 100px;
+}
+#education .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+#education .container .h4{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+#education .container .card .col-md-3 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+#education .container .card .col-md-3 .card-body{
+    margin-top: 12%;}
+/*=========== End: Giáo dục - Education ===========*/
+
+
+/*=========== Start: Người giới thiệu - References ===========*/
+/*=========== End: Người giới thiệu - References ===========*/
+
+
+/*=========== Start: Contact - Liên hệ ===========*/
+#contact .container .cc-contact .row{
+   justify-content: center;
+}
+#contact .container .cc-contact .row .col-md-9 .card{
+    margin: 8%;
+}
+#contact .cc-contact-information{
+    justify-content: center;
+}
+/*=========== End: Contact - Liên hệ ===========*/
+
+
+/*=========== Start: Phần cuối trang - Footer ===========*/
+#footer .container a{
+    padding-left: 10px;
+    font-size: 35px;
+    color:  #979797;
+    margin-top: 20px;
+}
+#FB:hover{
+    color: rgb(36, 36, 138);
+}
+#GG:hover{
+    color: rgb(199, 70, 70);
+}
+#IG:hover{
+    color: rgb(100, 100, 228);
+}
+
+/*=========== End: Phần cuối trang - Footer ===========*/
