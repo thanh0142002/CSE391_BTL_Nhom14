@@ -19,13 +19,9 @@
     width: 100%;
     z-index: 50;
     top: 0px;
-
-}
-.navbar .navbar-toggler-icon span{
-    color: white;
 }
 
-header img{
+.banner img{
     height: 355px;
     width: 1903px;
 }
@@ -123,36 +119,6 @@ header img{
 /*=========== End: Phần thông tin - About ===========*/
 
 
-/*=========== Start: Kinh nghiệm làm việc - Work experience ===========*/
-#experience{
-    margin-top: 100px;
-}
-#experience .container .card{
-    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
-    margin-bottom: 35px;
-}
-
-#experience .container .h4{
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-}
-
-#experience .container .card .col-md-3 {
-    background-color: #378C3F;
-    border-radius: 2px;
-    text-align: center;
-    color: white;
-}
-
-#experience .container .card .col-md-3 .card-body{
-    margin-top: 12%;
-}
-/*=========== End: Kinh nghiệm làm việc - Work experience ===========*/
-
-
 /*=========== Start: Dự án đã làm - Portfolio ===========*/
 #portfolio .h4{
     margin-top: 15%;
@@ -202,7 +168,40 @@ header img{
     
     
 }
+
+#portfolio .col-md-6{
+    
+}
 /*=========== End: Dự án đã làm - Portfolio ===========*/
+
+
+/*=========== Start: Kinh nghiệm làm việc - Work experience ===========*/
+#experience{
+    margin-top: 100px;
+}
+#experience .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+#experience .container .h4{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+#experience .container .card .col-md-3 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+#experience .container .card .col-md-3 .card-body{
+    margin-top: 12%;
+}
+/*=========== End: Kinh nghiệm làm việc - Work experience ===========*/
 
 
 /*=========== Start: Giáo dục - Education ===========*/
@@ -234,6 +233,7 @@ header img{
 /*=========== End: Giáo dục - Education ===========*/
 
 
+
 /*=========== Start: Người giới thiệu - References ===========*/
 /*=========== End: Người giới thiệu - References ===========*/
 
@@ -248,6 +248,19 @@ header img{
 #contact .cc-contact-information{
     justify-content: center;
 }
+
+#contact .cc-contact-information .col .input-group i{
+    width: 17x;
+    height: 16px;
+    font-size: 36px;
+    padding: 15px;
+}
+#contact .cc-contact-information .input-group .form-control{
+    border-radius: 25px;
+}
+#contact .cc-contact-information .form-group .form-control{
+   box
+}
 /*=========== End: Contact - Liên hệ ===========*/
 
 
@@ -257,6 +270,9 @@ header img{
     font-size: 35px;
     color:  #979797;
     margin-top: 20px;
+}
+#footer{
+    margin-bottom: 3%;
 }
 #FB:hover{
     color: rgb(36, 36, 138);

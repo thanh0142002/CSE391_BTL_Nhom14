@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="css/Huy_style.css">
 </head>
 <body>
+  <!--=========== Thanh điều hướng ===========-->
     <header>
-    <!--=========== Thanh điều hướng ===========-->
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
               <a class="navbar-brand" href="#">Trở về</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +47,11 @@
               </div>
             </div>
           </nav>
-      <img src="images/Huy_background.jpg"  style="height: 100%;" alt="Ảnh bìa">
+      
     </header>
+    <div class="banner">
+      <img src="images/Huy_background.jpg"  style="height: 100%;" alt="Ảnh bìa">
+    </div>
     
  <!--=========== Start: Hồ sơ - Profile ===========-->
 
@@ -106,7 +109,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="card-body">
-            <div class="h4 mb-3">About</div>
+            <div class="h4 mb-3 title">About</div>
             <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
             <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
           </div>
@@ -144,10 +147,64 @@
 
 <!--=========== End: Phần thông tin - About ===========-->
 
+
+<!--=========== Start: Kỹ năng chuyên nghiệp - Professional Skills ===========-->
+<div class="container professional mt-5">
+  <div class="h4 text-center mb-4 title">Professional Skills</div>
+  <div class="shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="row row-cols-1 row-cols-sm-2 ">
+      <div class="col">
+        <span>HTML</span>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col">
+        <span>CSS</span>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <span>JAVASCRIPT</span>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <span>C++</span>
+        <div class="progress">
+          <div class="progress-bar"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <span>C++</span>
+        <div class="progress">
+          <div class="progress-bar"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col mt-4 mb-4">
+        <span>C++</span>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=========== End: Kỹ năng chuyên nghiệp - Professional Skills ===========-->
+
+
 <!--=========== Start: Dự án đã làm - Portfolio ===========-->
 <div id="portfolio">
   <div class="container">
-    <div class="h4 title text-center">Portfolio</div>
+    <div class="h4 title text-center title">Portfolio</div>
     <div class="box-icon text-center mt-4">
       <div class="laptop"><a href="#"><i class="fa-solid fa-laptop"></i></a></div>
       <div class="img"><a href="#"><i class="fa-solid fa-image"></i></a></div>
@@ -277,7 +334,7 @@
 <!--=========== Start: Kinh nghiệm làm việc - Work experience ===========-->
 <div id="experience">
   <div class="container">
-    <div class="h4">Work Experience</div>
+    <div class="h4 text-center title">Work Experience</div>
     <div class="card">
       <div class="row">
         <div class="col-md-3">
@@ -335,7 +392,7 @@
 
 <div id="education">
   <div class="container">
-    <div class="h4">Education</div>
+    <div class="h4 text-center title">Education</div>
     <div class="card">
       <div class="row">
         <div class="col-md-3">
@@ -451,21 +508,21 @@
                       <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                          <div class="input-group">
                             <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                          <div class="input-group"><span class="input-group-addon"></span>
                             <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                          <div class="input-group"><span class="input-group-addon"></span>
                             <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
                           </div>
                         </div>
@@ -485,7 +542,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-0">
                   <div class="card-body">
                     <p class="mb-0"><strong>Address </strong></p>
                     <p class="pb-2">140, City Center, New York, U.S.A</p>
@@ -524,6 +581,7 @@
 <!--=========== Demo ===========-->
 <!--===========-- Demo ===========---->
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="js/Huy_main.js"></script>
 </body>
 </html>
