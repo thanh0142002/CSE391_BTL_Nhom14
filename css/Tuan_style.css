@@ -157,11 +157,11 @@ header img{
 .mb-5 {
     margin-top: 50px !important;
 }
-
-/* skill  */
+/* skill */
 div.progress-bar {
     animation-name: example;
     animation-duration: 1.5s;
+    
 }
 @keyframes example {
     0% {inline-size: 0%;}
@@ -169,4 +169,83 @@ div.progress-bar {
 }
 .slideanim {
     visibility: hidden;
+} 
+/*Experience*/
+.experience{
+    margin-top: 100px;
 }
+.experience .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+.experience .container .h5{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.experience .container .card .col-md-9 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+.experience .container .card .col-md-9 .card-body{
+    margin-top: 12%;
+}
+/* Education */
+.education{
+    margin-top: 100px;
+}
+.education .container .card{
+    box-shadow: 0.5px 0.5px 15px 0.5px #c7b8b8;
+    margin-bottom: 35px;
+}
+
+.education .container .h5{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.education .container .card .col-md-3 {
+    background-color: #378C3F;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+.education .container .card .col-md-3 .card-body{
+    margin-top: 12%;}
+
+/*.progress-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .progress-container .progress-bar {
+    height: 5px;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  
+  .progress-container .progress {
+    height: 5px;
+    font-size: 18px;
+  }
+  
+  .progress-container .aos-animate {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
