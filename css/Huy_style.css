@@ -137,9 +137,11 @@
     border-radius:70%;
     height: 60px;
     width: 60px;
-
-
 }
+#portfolio .laptop:hover{
+    background-color: #378C3F;
+}
+
 #portfolio .container .box-icon a{
     color: white;
     font-size: 30px;
@@ -153,7 +155,9 @@
     height: 60px;
     width: 60px;
     margin-left: 10px;
-
+}
+#portfolio .img:hover{
+    background-color: #378C3F;
 }
 
 #portfolio .cam {
@@ -163,7 +167,9 @@
     height: 60px;
     width: 60px;
     margin-left: 10px;
-
+}
+#portfolio .cam:hover{
+    background-color: #378C3F;
 }
 
 #portfolio .box-icon {
@@ -172,9 +178,7 @@
     
     
 }
-
 /*=========== End: Dự án đã làm - Portfolio ===========*/
-
 
 /*=========== Start: Kinh nghiệm làm việc - Work experience ===========*/
 #experience{
@@ -202,10 +206,10 @@
 #experience .container .card .col-md-3 .card-body{
     margin-top: 12%;
 }
-/*=========== End: Kinh nghiệm làm việc - Work experience ===========*/
+/*=========== Endt: Kinh nghiệm làm việc - Work experience ===========*/
 
 
-/*=========== Start: Giáo dục - Education ===========*/
+/*=========== Start: Education - Giáo dục ===========*/
 #education{
     margin-top: 100px;
 }
@@ -231,35 +235,20 @@
 
 #education .container .card .col-md-3 .card-body{
     margin-top: 12%;}
-/*=========== End: Giáo dục - Education ===========*/
-
-
+/*=========== Endt: Education - Giáo dục ===========*/
 
 /*=========== Start: Người giới thiệu - References ===========*/
 /*=========== End: Người giới thiệu - References ===========*/
 
 
 /*=========== Start: Contact - Liên hệ ===========*/
+
 #contact .container .cc-contact .row{
-   justify-content: center;
-}
-#contact .container .cc-contact .row .col-md-9 .card{
-    margin: 5%;
-}
-#contact .cc-contact-information{
     justify-content: center;
+ }
+ #contact .container .cc-contact .row .col-md-9 .card{
+     margin: 8%;
 }
-
-#contact .cc-contact-information .col .input-group i{
-    width: 17x;
-    height: 16px;
-    font-size: 36px;
-    padding: 15px;
-}
-#contact .cc-contact-information .input-group .form-control{
-    border-radius: 25px;
-}
-
 /*=========== End: Contact - Liên hệ ===========*/
 
 
@@ -284,3 +273,4 @@
 }
 
 /*=========== End: Phần cuối trang - Footer ===========*/
+

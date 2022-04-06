@@ -11,7 +11,7 @@ function send(){
     var email = document.getElementById('email'); 
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; 
     if (!filter.test(email.value)) { 
-        alert('Hãy nhập địa chỉ email.\nExample@e.tlu.edu.vn');
+        alert('Hãy nhập lại địa chỉ email đúng cú pháp! \nExample@e.tlu.edu.vn');
         email.focus; 
         return false; 
     }
