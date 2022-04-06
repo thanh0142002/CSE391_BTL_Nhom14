@@ -246,8 +246,24 @@
 #contact .container .cc-contact .row{
     justify-content: center;
  }
- #contact .container .cc-contact .row .col-md-9 .card{
+#contact .container .cc-contact .row .col-md-9 .card{
      margin: 8%;
+}
+#contact .container .cc-contact .row .send input {
+    background-color: #378C3F;
+    border: #378C3F;
+    color: white;
+}
+#contact .container .cc-contact .row .send button{
+    background-color: #378C3F;
+    border: #378C3F;
+    border-radius: 4px;
+    height: 40px;
+    width: 75px;
+}
+#contact .container .cc-contact .row .form-group textarea{
+    border: none;
+    border-bottom: 2px solid #CCC;  
 }
 /*=========== End: Contact - Liên hệ ===========*/
 
