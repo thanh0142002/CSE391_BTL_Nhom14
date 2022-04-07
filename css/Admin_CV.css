@@ -1,0 +1,23 @@
+.nav{
+    background-color: green;
+}
+
+.content .card .row .col-md-2 .card img{
+    border: 1px solid #378C3F ;
+    padding: 7px;
+    border-radius:50%;
+    height: 130px;
+    width: 130px;
+
+}
+.content .card .row .col-md-2 .dropdown{
+    justify-content: center;
+}
+.content .card .row .col-md-2 .dropdown .btn{
+   width: 165px;
+}
+.content .card .row .col-md-2 .card-body .btn{
+    background-color: green;
+    width: 90px;
+    color: honeydew;
+}
