@@ -33,7 +33,7 @@ h1{
 .content .card .row .col-md-2 .card-body-content .btn{
     background-color: #198754;
     width: 130px;
-    color: honeydew;
+    color: white;
 
 }
 .col-md-2{
@@ -46,15 +46,35 @@ h1{
 .content .card{
     height: 915px;
 }
-.col-md-10 p{
-    color: white;
-    font-family: Dancing script;
-    margin-top: 20%;
-    font-size: 34px;
-}
 .col-md-10 h5{
-    color: white;
-    font-size: 40px;
-    margin-top: 2%;
-    font-family: 'Lobster', cursive;
+    color: green;
+    font-size: 34px;
+    margin-top: 5%;
+    font-family: serif;
+    line-height: 24px;
+
+}
+/* Thêm tên CV */
+.col-md-10 .container{
+    padding-top: 15%;
+    padding: 50px;
+}
+.col-md-10 .row{
+    justify-content: center; 
+    background-color: rgba(247, 247, 247, 0.589);
+    border-radius: 25px;
+    opacity: 0.9;
+    border: 1px solid #198754 ;
+    
+}
+label{
+    color: green;
+    text-align: left;
+}
+.col-md-10 p{
+    color: green;
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: serif;
+    line-height: 24px;
 }

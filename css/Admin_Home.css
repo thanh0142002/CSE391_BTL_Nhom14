@@ -1,0 +1,27 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 10%;
+}
+#intro {
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+}
+#intro .container .card img{
+    border: 1px solid #9cb19e ;
+    padding: 7px;
+    border-radius:50%;
+    height: 180px;
+    width: 180px;
+}
+#intro .container .card{
+    background: rgba(199, 187, 187, 0.5);
+}
+#intro .container .row{
+    padding: 15px;
+}
