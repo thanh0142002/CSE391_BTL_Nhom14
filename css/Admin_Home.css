@@ -5,7 +5,7 @@ h1{
     color: white;
     font-family: 'Lobster', cursive;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 0;
 }
 #intro {
     display: flex;
