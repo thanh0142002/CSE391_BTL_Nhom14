@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/admin_background.jpg);
+}
+.navbar .btn{
+    width: 120px;
+}
+.col-md-5{
+  background-color: aliceblue;
+  border-radius: 15px;
+  background: rgba(250, 250, 250, 0.6);
+}
+#login form{
+  padding: 40px;
+}
+#login{
+  padding: 50px;
+}
+
+h1{
+
+  font-family: Courier New
+  Courier;
+  color: white;
+}
+.row{
+  justify-content: center; 
+}
+
+.send_login{
+  width: 350px;
+}
+
+#inputEmail.form-control,
+#inputPassword.form-control,
+#inputConfirmPassword.form-control,
+#inputUserame.form-control{
+    border-radius: 25px;
+}

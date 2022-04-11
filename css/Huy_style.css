@@ -57,24 +57,8 @@
     padding-top: 70px;
     
 }
-#profile-page #social .gg {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-
-}
-
-#profile-page #social .ig {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-}
+#profile-page #social .gg,
+#profile-page #social .ig,
 #profile-page #social .tw {
     background-color: #979797;
     padding: 7px;
@@ -82,7 +66,9 @@
     height: 60px;
     width: 60px;
     margin-left: 10px;
+
 }
+
 
 #profile-page .box-social {
     display: flex;

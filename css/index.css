@@ -1,16 +1,23 @@
 body{
     background-image: url(../images/admin_background.jpg);
 }
+.navbar{
+    padding: 20px;
+}
+.navbar .btn{
+    width: 120px;
+    
+}
 h1{
     color: white;
     font-family: 'Lobster', cursive;
     text-align: center;
-    margin-top: 0;
+    margin-top: 5%;
 }
 #intro {
     display: flex;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 #intro .container .card img{
     border: 1px solid #ffffff ;
