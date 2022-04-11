@@ -5,12 +5,19 @@ h1{
     color: white;
     font-family: 'Lobster', cursive;
     text-align: center;
-    margin-top: 0;
+    margin-top: 5%;
+}
+.navbar {
+    padding-top: 15px;
+}
+.navbar .btn{
+    margin-left: 15px;
+    width: 120px;
 }
 #intro {
     display: flex;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 12%;
 }
 #intro .container .card img{
     border: 1px solid #ffffff ;

@@ -37,13 +37,7 @@
     background-color: #378C3F;
     color: white;
 }
-#profile-page #social .fb {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-}
+
 #profile-page img{
     border: 1px solid #378C3F ;
     padding: 7px;
@@ -57,24 +51,9 @@
     padding-top: 70px;
     
 }
-#profile-page #social .gg {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-
-}
-
-#profile-page #social .ig {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-}
+#profile-page #social .fb,
+#profile-page #social .ig,
+#profile-page #social .gg,
 #profile-page #social .tw {
     background-color: #979797;
     padding: 7px;
@@ -82,6 +61,7 @@
     height: 60px;
     width: 60px;
     margin-left: 10px;
+
 }
 
 #profile-page .box-social {
