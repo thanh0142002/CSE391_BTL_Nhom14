@@ -10,10 +10,10 @@ h1{
 #intro {
     display: flex;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 #intro .container .card img{
-    border: 1px solid #9cb19e ;
+    border: 1px solid #ffffff ;
     padding: 7px;
     border-radius:50%;
     height: 180px;
@@ -21,7 +21,24 @@ h1{
 }
 #intro .container .card{
     background: rgba(199, 187, 187, 0.5);
+    border-radius: 25px;
 }
 #intro .container .row{
     padding: 15px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+#intro .container .btn{
+    width: 200px;
+}
+#intro .container .col-lg-4{
+    justify-content: center;
+    padding-left: 70px;
+}
+#intro .container .card-text{
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+#intro .container .card-title{
+    font-size: 24px;
 }
