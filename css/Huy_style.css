@@ -51,6 +51,9 @@
     height: 180px;
     width: 180px;
 }
+#profile-page .btn{
+    width: 130px;
+}
 #profile-page #social .box-social a{
     color: white;
     font-size: 30px;
