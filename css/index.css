@@ -17,7 +17,7 @@ h1{
 #intro {
     display: flex;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 0;
 }
 #intro .container .card img{
     border: 1px solid #ffffff ;
