@@ -1,3 +1,5 @@
+AOS.init();
+
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop()) {
@@ -8,5 +10,3 @@ $(document).ready(function () {
         }
     });
 });
-
-AOS.init();
