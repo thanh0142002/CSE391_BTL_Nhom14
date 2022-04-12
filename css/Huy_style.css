@@ -45,15 +45,23 @@
     height: 180px;
     width: 180px;
 }
+#profile-page .btn{
+    width: 130px;
+}
 #profile-page #social .box-social a{
     color: white;
     font-size: 30px;
     padding-top: 70px;
     
 }
+<<<<<<< HEAD
 #profile-page #social .fb,
 #profile-page #social .ig,
 #profile-page #social .gg,
+=======
+#profile-page #social .gg,
+#profile-page #social .ig,
+>>>>>>> d6f1ed2ac354368baae3c33842206b99c2630c45
 #profile-page #social .tw {
     background-color: #979797;
     padding: 7px;
@@ -63,6 +71,7 @@
     margin-left: 10px;
 
 }
+
 
 #profile-page .box-social {
     display: flex;
