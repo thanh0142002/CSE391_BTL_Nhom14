@@ -13,11 +13,25 @@ h1{
     font-family: 'Lobster', cursive;
     text-align: center;
     margin-top: 5%;
+<<<<<<< HEAD
+}
+.navbar {
+    padding-top: 15px;
+}
+.navbar .btn{
+    margin-left: 15px;
+    width: 120px;
+=======
+>>>>>>> d6f1ed2ac354368baae3c33842206b99c2630c45
 }
 #intro {
     display: flex;
     text-align: center;
+<<<<<<< HEAD
+    margin-top: 12%;
+=======
     margin-top: 0;
+>>>>>>> d6f1ed2ac354368baae3c33842206b99c2630c45
 }
 #intro .container .card img{
     border: 1px solid #ffffff ;

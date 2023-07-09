@@ -37,13 +37,7 @@
     background-color: #378C3F;
     color: white;
 }
-#profile-page #social .fb {
-    background-color: #979797;
-    padding: 7px;
-    border-radius:70%;
-    height: 60px;
-    width: 60px;
-}
+
 #profile-page img{
     border: 1px solid #378C3F ;
     padding: 7px;
@@ -60,8 +54,14 @@
     padding-top: 70px;
     
 }
+<<<<<<< HEAD
+#profile-page #social .fb,
+#profile-page #social .ig,
+#profile-page #social .gg,
+=======
 #profile-page #social .gg,
 #profile-page #social .ig,
+>>>>>>> d6f1ed2ac354368baae3c33842206b99c2630c45
 #profile-page #social .tw {
     background-color: #979797;
     padding: 7px;
